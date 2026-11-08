@@ -103,20 +103,24 @@ After running 1,000 tournament simulations, the followingteams had the highest e
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ChandlerPhillips3/MarchMadnessSimulation.git
    ```
 
 2. Navigate to the project directory.
-
-3. Install the required libraries:
+   
+   ```bash
+   cd MarchMadnessSimulation
+   ```
+   
+4. Install the required libraries:
 
    ```bash
    pip install numpy matplotlib notebook
    ```
 
-4. Open `MarchMadness_Simulation.ipynb` in Jupyter Notebook or VS Code.
+5. Open `MarchMadness_Simulation.ipynb` in Jupyter Notebook or VS Code.
 
-5. Run the notebook cells from top to bottom.
+6. Run the notebook cells from top to bottom.
 
 The notebook currently uses the 2025 NCAA Tournament dataset, with archived team data from previous tournament seasons also included.
 
